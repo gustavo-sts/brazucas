@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Moderna</title>
+    <meta name="description" content="Barbearia premium com serviços especializados em cortes modernos e tradicionais">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://picsum.photos/40/40" alt="Logo Barbearia Moderna" class="logo-img">
+                <span>Barbearia Moderna</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#agendar" class="cta-button">Agendar Horário</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Estilo Moderno para Homens Modernos</h1>
+            <p>Agende seu horário e experimente uma nova experiência em barbearia</p>
+            <div class="hero-buttons">
+                <a href="#agendar" class="cta-button">Reservar Horário <i class="fas fa-arrow-right"></i></a>
+                <a href="#servicos" class="secondary-button">Ver Serviços <i class="fas fa-cut"></i></a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <p class="section-desc">Oferecemos uma variedade de serviços premium para cuidar do seu visual</p>
+            <div class="services-grid">
+                <div class="service-card" data-service="degradeamericano">
+                    <i class="fas fa-cut"></i>
+                    <h3>Degradê Americano</h3>
+                    <p>Corte moderno com transição suave</p>
+                    <span class="price">R$ 60</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="social">
+                    <i class="fas fa-cut"></i>
+                    <h3>Corte Social</h3>
+                    <p>Estilo clássico e elegante</p>
+                    <span class="price">R$ 50</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="navalhado">
+                    <i class="fas fa-cut"></i>
+                    <h3>Corte Navalhado</h3>
+                    <p>Acabamento preciso com navalha</p>
+                    <span class="price">R$ 65</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="barba">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Barba Tradicional</h3>
+                    <p>Acabamento perfeito com navalha profissional</p>
+                    <span class="price">R$ 40</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="barbacompleta">
+                    <i class="fas fa-user-ninja"></i>
+                    <h3>Barba Completa</h3>
+                    <p>Inclui hidratação e modelagem</p>
+                    <span class="price">R$ 55</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="designbarba">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Design de Barba</h3>
+                    <p>Modelagem e estilo personalizado</p>
+                    <span class="price">R$ 45</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="pigmentacao">
+                    <i class="fas fa-spray-can"></i>
+                    <h3>Pigmentação</h3>
+                    <p>Correção e disfarce para falhas na barba</p>
+                    <span class="price">R$ 50</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+                <div class="service-card" data-service="combo">
+                    <i class="fas fa-fire"></i>
+                    <h3>Combo Completo</h3>
+                    <p>Corte + Barba + Hidratação</p>
+                    <span class="price">R$ 120</span>
+                    <a href="#agendar" class="service-button">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2>Nossa Galeria</h2>
+            <p class="section-desc">Confira alguns dos nossos melhores trabalhos</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/400" alt="Degradê Moderno">
+                    <div class="gallery-overlay">
+                        <span>Degradê Moderno</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/401/400" alt="Barba Estilizada">
+                    <div class="gallery-overlay">
+                        <span>Barba Estilizada</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/402/400" alt="Corte Social">
+                    <div class="gallery-overlay">
+                        <span>Corte Social</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/403/400" alt="Acabamento Perfeito">
+                    <div class="gallery-overlay">
+                        <span>Acabamento Perfeito</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/404/400" alt="Design de Barba">
+                    <div class="gallery-overlay">
+                        <span>Design de Barba</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/405/400" alt="Barba Tradicional">
+                    <div class="gallery-overlay">
+                        <span>Barba Tradicional</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/406/400" alt="Corte Navalhado">
+                    <div class="gallery-overlay">
+                        <span>Corte Navalhado</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/407/400" alt="Pigmentação">
+                    <div class="gallery-overlay">
+                        <span>Pigmentação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <h2>O que dizem nossos clientes</h2>
+            <p class="section-desc">A satisfação dos nossos clientes é nossa prioridade</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://picsum.photos/100/100" alt="Cliente 1">
+                    </div>
+                    <p class="testimonial-text">"Melhor barbearia da cidade! Atendimento excepcional e resultado impecável."</p>
+                    <h4>João Silva</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://picsum.photos/101/100" alt="Cliente 2">
+                    </div>
+                    <p class="testimonial-text">"Profissionais altamente qualificados e ambiente muito agradável."</p>
+                    <h4>Pedro Santos</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horário de Funcionamento -->
+    <section class="hours">
+        <div class="container">
+            <div class="hours-content">
+                <h2>Horário de Funcionamento</h2>
+                <div class="hours-grid">
+                    <div class="hours-item">
+                        <span class="day">Segunda - Sexta</span>
+                        <span class="time">09:00 - 20:00</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Sábado</span>
+                        <span class="time">09:00 - 18:00</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Domingo</span>
+                        <span class="time">Fechado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Visite-nos</h2>
+                <div class="info-card">
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (XX) 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> contato@barbearia.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/barbeariam" target="_blank" class="social-button">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://facebook.com/barbeariamode" target="_blank" class="social-button">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://tiktok.com/@barbearia_mode" target="_blank" class="social-button">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356219020248!2d-43.18344968503454!3d-22.906347785015005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU0JzIyLjkiUyA0M8KwMTAnNTUuNCJX!5e0!3m2!1spt-BR!2sbr!4v1625147330944!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <form id="agendar" class="booking-form">
+                <h2>Agendamento</h2>
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" id="whatsapp" placeholder="(XX) XXXXX-XXXX" pattern="[0-9]{11}" required>
+                </div>
+                <div class="form-group">
+                    <label for="servico">Serviço</label>
+                    <select id="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="degradeamericano">Degradê Americano - R$ 60</option>
+                        <option value="social">Corte Social - R$ 50</option>
+                        <option value="navalhado">Corte Navalhado - R$ 65</option>
+                        <option value="barba">Barba Tradicional - R$ 40</option>
+                        <option value="barbacompleta">Barba Completa - R$ 55</option>
+                        <option value="designbarba">Design de Barba - R$ 45</option>
+                        <option value="pigmentacao">Pigmentação - R$ 50</option>
+                        <option value="combo">Combo Completo - R$ 120</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data e Hora</label>
+                    <input type="datetime-local" id="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="observacoes">Observações (opcional)</label>
+                    <textarea id="observacoes" rows="3" placeholder="Alguma observação especial?"></textarea>
+                </div>
+                <button type="submit" class="cta-button">
+                    <i class="fas fa-calendar-check"></i>
+                    Confirmar Agendamento
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://picsum.photos/40/40" alt="Logo Barbearia Moderna">
+                    <span>Barbearia Moderna</span>
+                </div>
+                <p>&copy; 2025 Barbearia Moderna. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
