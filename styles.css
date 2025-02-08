@@ -721,6 +721,10 @@ h2 {
     }
 
     .cta-button {
+        display: flex;
+    }
+
+    #cta-button-header {
         display: none;
     }
     
