@@ -49,7 +49,7 @@ document.querySelector('.booking-form').addEventListener('submit', function(e) {
     }
     
     // Número do WhatsApp da barbearia (substitua pelo número real)
-    const numeroWhatsapp = '5585999999999';
+    const numeroWhatsapp = '557991718381';
     
     // Criar URL do WhatsApp
     const urlWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
